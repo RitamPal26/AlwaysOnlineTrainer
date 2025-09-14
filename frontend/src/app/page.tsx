@@ -1,6 +1,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
 
 interface Message {
   id: string;
@@ -185,7 +186,14 @@ export default function Home() {
       <div className="bg-white shadow-lg border-b p-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="text-3xl">🏋️‍♂️</div>
+            <div className="relative w-12 h-12">
+              <Image
+                src="/always online trainer.png"
+                alt="Always Online Trainer"
+                fill
+                className="object-contain"
+              />
+            </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900">
                 Always Online Trainer
@@ -230,11 +238,21 @@ export default function Home() {
                 <div
                   className={`w-8 h-8 rounded-full flex items-center justify-center text-sm ${
                     message.type === "user"
-                      ? "bg-blue-500 text-white"
-                      : "bg-orange-500 text-white"
+                      ? "bg-white-500 text-white"
+                      : "bg-white-500 text-white"
                   }`}
                 >
-                  {message.type === "user" ? "👤" : "🏋️‍♂️"}
+                  {message.type === "user" ? (
+                    "👤"
+                  ) : (
+                    <Image
+                      src="/always online trainer.png"
+                      alt="AI Trainer"
+                      width={24}
+                      height={24}
+                      className="inline-block"
+                    />
+                  )}
                 </div>
 
                 <div
@@ -355,7 +373,7 @@ export default function Home() {
               onChange={(e) => setUserInput(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSendMessage()}
               placeholder="Ask about your form, technique, nutrition, or request tips..."
-              className="flex-1 px-4 py-3 border-2 border-gray-200 rounded-full focus:outline-none focus:border-blue-500 transition-colors"
+              className="flex-1 px-4 py-3 border-2 border-gray-200 rounded-full focus:outline-none focus:border-blue-500 transition-colors text-gray-900 placeholder-gray-500"
               disabled={isAnalyzing}
             />
             <button
