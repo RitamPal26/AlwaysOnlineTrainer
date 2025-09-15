@@ -167,4 +167,4 @@ MIT License - Feel free to use this code for your own AI fitness innovations!
 **Ready to revolutionize your fitness journey? Start training with AlwaysOnlineTrainer today!** 🚀
 
 *Built with ❤️ using cutting-edge AI technology*
-```
+
