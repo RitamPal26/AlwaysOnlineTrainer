@@ -94,7 +94,7 @@ Visit `http://localhost:3000` and start training with your AI coach! 🎉
 ### **🎥 Demo Video**
 > **Watch AlwaysOnlineTrainer in action!** See real-time exercise analysis and nutrition coaching.
 
-[![AlwaysOnlineTrainer Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://youtube.com/your-demo-video)
+https://vimeo.com/1118607256?share=copy
 
 *2-minute demo showcasing exercise form analysis, food nutrition guidance, and conversational AI coaching*
 
