@@ -94,7 +94,7 @@ Visit `http://localhost:3000` and start training with your AI coach! 🎉
 ### **🎥 Demo Video**
 > **Watch AlwaysOnlineTrainer in action!** See real-time exercise analysis and nutrition coaching.
 
-https://vimeo.com/1118607256?share=copy
+https://drive.google.com/drive/folders/1TE51812bYMQgJJsHRHCShnwX66___zbN?usp=sharing
 
 *2-minute demo showcasing exercise form analysis, food nutrition guidance, and conversational AI coaching*
 
